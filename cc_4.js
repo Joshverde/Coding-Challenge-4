@@ -83,3 +83,10 @@ function applyDiscount(price,discountPercentage){
 const discountPercentage = 10
 let price = 100
 console.log(`Discounted Price: ${applyDiscount(price,discountPercentage)}`)
+
+// Task 10
+// creates an arrow function that takes purchase amount and returns 1 point for every $10
+var calculatePoints = (purchase) => Math.floor(purchase/10)// Math.floor returns whole number from the division
+// Defines a variable for purchase amount
+var purchase = 100
+console.log(`Points earned: ${calculatePoints(purchase)}`)
