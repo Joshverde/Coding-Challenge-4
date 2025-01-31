@@ -28,3 +28,13 @@ while(stock != 0){
     --stock;
     console.log(stock)
 }
+
+// Task #4
+// creates variable
+let response  = 0
+// adds an increment of 1 to each loop until loop reaches 3 attempts
+do{
+    ++response;
+    console.log (`Attempt: ${response}`)
+}
+    while(response < 3);
