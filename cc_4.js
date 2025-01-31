@@ -57,3 +57,9 @@ let products =["Coke","Sprite","Fanta","Rootbeer"]
 for(product of products) {
     console.log(`Product: ${product}`)
 }
+// Task 7
+// creates an array
+let orders = [4001,2002,8003]
+// Uses a forEach function to print each Id and its index +1
+orders.forEach((id, idIndex) => {
+    console.log(`ID ${idIndex +1}: ${id} `)
