@@ -10,3 +10,12 @@ if(purchaseAmount > 100) {
 else{
     console.log(`final amount: ${purchaseAmount}`)
 }
+
+//Task #2
+// creates the sales array and defines totalSales
+let sales = [35,24,78,90,123]
+let totalSales = 0
+for(sale of sales) {
+    totalSales = sale + totalSales;
+}
+console.log(totalSales)
