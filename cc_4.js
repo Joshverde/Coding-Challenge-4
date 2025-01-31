@@ -19,3 +19,12 @@ for(sale of sales) {
     totalSales = sale + totalSales;
 }
 console.log(totalSales)
+
+//Task #3
+// Creates variable
+let stock = 10
+// suptracts one for the the while loop after each iteration and prints output to console log
+while(stock != 0){
+    --stock;
+    console.log(stock)
+}
