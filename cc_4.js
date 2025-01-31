@@ -49,3 +49,11 @@ let employee = {
 for(property in employee){
     console.log(`${property}: ${employee[property]}`)
 }
+
+// Task #6
+// Creates an array 
+let products =["Coke","Sprite","Fanta","Rootbeer"]
+// Prints each product in the products array with a message
+for(product of products) {
+    console.log(`Product: ${product}`)
+}
