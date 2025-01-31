@@ -63,7 +63,7 @@ let orders = [4001,2002,8003]
 // Uses a forEach function to print each Id and its index +1
 orders.forEach((id, idIndex) => {
     console.log(`ID ${idIndex +1}: ${id} `)})
-    
+
 // Task 8
 // Creates a function that the tax of an amunt
 function calculateTax(amount,taxRate){
@@ -73,3 +73,13 @@ function calculateTax(amount,taxRate){
 let amount = 100;
 const taxRate = .10
 console.log(`The tax for the given amount: ${calculateTax(amount,taxRate)}`)
+
+//  Task 9
+// creates a function that takes a price and discountPercentage and returns discounted price
+function applyDiscount(price,discountPercentage){
+    return price -(price * discountPercentage/100)
+}
+// creates a price variable and a discountPercentage Constant
+const discountPercentage = 10
+let price = 100
+console.log(`Discounted Price: ${applyDiscount(price,discountPercentage)}`)
