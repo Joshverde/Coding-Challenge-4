@@ -38,3 +38,14 @@ do{
     console.log (`Attempt: ${response}`)
 }
     while(response < 3);
+
+// Task #5
+// Creates an object and its properties
+let employee = {
+    name: "janaina",
+    position: "logistics",
+    salary: "21,738"
+}
+for(property in employee){
+    console.log(`${property}: ${employee[property]}`)
+}
