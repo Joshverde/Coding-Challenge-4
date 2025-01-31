@@ -62,4 +62,14 @@ for(product of products) {
 let orders = [4001,2002,8003]
 // Uses a forEach function to print each Id and its index +1
 orders.forEach((id, idIndex) => {
-    console.log(`ID ${idIndex +1}: ${id} `)
+    console.log(`ID ${idIndex +1}: ${id} `)})
+    
+// Task 8
+// Creates a function that the tax of an amunt
+function calculateTax(amount,taxRate){
+    return amount * taxRate
+}
+// defines a varaible for the amount and a constant for the taxrate
+let amount = 100;
+const taxRate = .10
+console.log(`The tax for the given amount: ${calculateTax(amount,taxRate)}`)
